@@ -89,7 +89,7 @@ ul {
     color: white;
     border: 1px solid #F97300;
     padding: 25px;
-    width: 50%;
+    width: center;
     margin: 20px auto;
     border-radius: 5px;
     text-align: justify;
@@ -231,6 +231,16 @@ nav {
         border: 1px solid #F97300;
         padding: 25px;
         width: 80%;
+        margin: 20px auto;
+        border-radius: 5px;
+        text-align: justify;
+    }
+    .posi {
+        background: #31363F;
+        color: white;
+        border: 1px solid #F97300;
+        padding: 25px;
+        width: 50%;
         margin: 20px auto;
         border-radius: 5px;
         text-align: justify;
