@@ -1,0 +1,168 @@
+body {
+    font-family: "Poetsen One", sans-serif;
+}
+p{
+    color: white;
+}
+#MenesajeB {
+    color: white;
+    font-size: 60px;
+    background-color: #153448;
+    text-align: center;
+    margin: 60px 50px 80px 50px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+.oferta {
+    background: #153448;
+    color: white;
+    font-size: 40px;
+    margin: 60px 50px 80px 50px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.precio {
+    font-size: 30px;
+    color: #76ABAE;
+}
+
+.reprecio {
+    background: #F97300;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.reprecio:hover {
+    background: #3C5B6F;
+
+}
+
+.columna2 {
+    background: #31363F;
+    color: white;
+    border: 1px solid #F97300;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    display: inline-block;
+
+}
+
+.Columna {
+    background: #31363F;
+    color: white;
+    border: 1px solid #F97300 ;
+    padding: 25px;
+    width: 20%;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+ul{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.posi{
+    background: #31363F;
+    color: white;
+    border: 1px solid #F97300 ;
+    padding: 25px;
+    width: 20%;
+    white-space: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.losi{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pa {
+    display: flex;
+}
+
+.nav-enlace {
+    background: #4D869C;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Cambia el fondo del coso cuando se selecciona */
+.nav-enlace:hover {
+    background: #153448;
+}
+
+/* se ajusta la posicion */
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton {
+    background: #153448;
+    color: antiquewhite;
+    padding: 10px 0;
+    border: 2px solid #4D869C;
+    display: none;
+}
+
+.boton:hover {
+    background: #4D869C;
+}
+
+.container {
+    margin: 0 auto;
+    width: 450px;
+}
+
+.flez {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    text-align: center;
+
+}
+
+/* Sirve para poder ajustar el tamaño de la pagina cuando se pasa de pc a celular */
+@media (max-width: 650px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-enlace {
+        margin: 10px 0;
+    }
+
+    .boton {
+        display: inline-block;
+    }
+
+    .desaparece {
+        display: none;
+    }
+}
