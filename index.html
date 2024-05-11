@@ -26,8 +26,8 @@
 
     <nav>
         <button class="boton" onclick="accion()">Menu</button>
-        <a href="#" class="nav-enlace desaparece">Objetivo de la Pagina</a>
-        <a href="#" class="nav-enlace desaparece">Documento</a>
+        <a href="#objetivo" class="nav-enlace desaparece">Objetivo de la Pagina</a>
+        <a href="documento.pdf" class="nav-enlace desaparece">Documento</a>
     </nav>
     <script>
         function accion() {
@@ -42,7 +42,8 @@
     </section>
     <div>
         <!-- El a sirve para poner Links y el i para nombrar -->
-        <p>Este sitio web es una representacion pequeña de mi aprendisaje en el mundo de las paginas web, listo
+        <p class="posi">Este sitio web es una representacion pequeña de mi aprendisaje en el mundo de las paginas web,
+            listo
             para entregar como proyecto el 24 de Mayo </p>
     </div>
 </body>
@@ -54,11 +55,15 @@
             <!-- el li se utiliza como lista desordenada -->
             <!-- El a sirve para poner Links y el i para nombrar -->
             <li class="Columna">Prueba 1: <a class="reprecio"
-                    href="https://www.youtube.com/watch?v=CRHPJUKoBOk&list=RD9sR1Plawr6M&index=3"><i>Cancion</i></a></li>
+                    href="https://www.youtube.com/watch?v=CRHPJUKoBOk&list=RD9sR1Plawr6M&index=3"><i>Cancion</i></a>
+            </li>
             <li class="Columna">Prueba 2: <a class="reprecio"
-                    href="https://www.youtube.com/watch?v=_xsygkX23bs&list=RD9sR1Plawr6M&index=4"><i>Cancion</i></a></li>
+                    href="https://www.youtube.com/watch?v=_xsygkX23bs&list=RD9sR1Plawr6M&index=4"><i>Cancion</i></a>
+            </li>
             <li class="Columna">Prueba 3: <a class="reprecio"
-                    href="https://www.youtube.com/watch?v=SZ1OTOzX1TE&list=RD9sR1Plawr6M&index=8"><i>Cancion</i></a></li>
+                    href="https://www.youtube.com/watch?v=SZ1OTOzX1TE&list=RD9sR1Plawr6M&index=8"><i>Cancion</i></a>
+            </li>
+
         </ul>
 
         <!-- y el ol se utiliza como lista ordenada
@@ -129,9 +134,11 @@
 
     </section>
     <hr>
-    <section class="pa">
+    <section>
 
-        <p class="posi losi" >El objetivo de la pagina principalmente para aumentar mis conocimientos, y sobre todo
+        <p id="objetivo" class="posi reposi"> <b id="ob">Objetivo de la Pagina:</b>
+
+            El objetivo de la pagina principalmente para aumentar mis conocimientos, y sobre todo
             entregar el trabajo a tiempo limite para que se pueda verificar correctamente.
 
             Investigue a fondo sobre todo como crear sitios web, por que me llamo la atencion, pude comprender
