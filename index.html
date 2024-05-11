@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap">
+    <link rel="stylesheet" href="Diseño/Style.css">
+    <title>NOVASPECTROS</title>
+    <style>
+        body {
+            background-image: url('JP/fondo-min.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- El h1 es el tamaño de la letra mas grande-->
+    <!-- id es un identificador, para que solo esa linea se le pueda cambiar el color -->
+    <h1 id="MenesajeB">BIENVENIDOS A SPECTROS STUDIOS</h1>
+
+    <nav>
+        <button class="boton" onclick="accion()">Menu</button>
+        <a href="#objetivo" class="nav-enlace desaparece">Objetivo de la Pagina</a>
+        <a href="documento.pdf" class="nav-enlace desaparece">Documento</a>
+    </nav>
+    <script>
+        function accion() {
+            console.log('Esta funcionando ome');
+            var ancla = document.getElementsByClassName('nav-enlace');
+            for (var i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+
+    </section>
+    <div>
+        <!-- El a sirve para poner Links y el i para nombrar -->
+        <p class="posi">Este sitio web es una representacion pequeña de mi aprendisaje en el mundo de las paginas web,
+            listo
+            para entregar como proyecto el 24 de Mayo </p>
+    </div>
+</body>
+
+<body>
+    <h1>
+        <h2 class="oferta">RECOPILACIÓN DE LAS MEJORES CANCIONES</h2>
+        <ul>
+            <!-- el li se utiliza como lista desordenada -->
+            <!-- El a sirve para poner Links y el i para nombrar -->
+            <li class="Columna">Prueba 1: <a class="reprecio"
+                    href="https://www.youtube.com/watch?v=CRHPJUKoBOk&list=RD9sR1Plawr6M&index=3"><i>Cancion</i></a>
+            </li>
+            <li class="Columna">Prueba 2: <a class="reprecio"
+                    href="https://www.youtube.com/watch?v=_xsygkX23bs&list=RD9sR1Plawr6M&index=4"><i>Cancion</i></a>
+            </li>
+            <li class="Columna">Prueba 3: <a class="reprecio"
+                    href="https://www.youtube.com/watch?v=SZ1OTOzX1TE&list=RD9sR1Plawr6M&index=8"><i>Cancion</i></a>
+            </li>
+
+        </ul>
+
+        <!-- y el ol se utiliza como lista ordenada
+<ol>
+    <li>Cancion 1: <a href="https://www.youtube.com/watch?v=CRHPJUKoBOk&list=RD9sR1Plawr6M&index=3"><i>Link</i></a></li>
+    <li>Cancion 2: <a href="https://www.youtube.com/watch?v=_xsygkX23bs&list=RD9sR1Plawr6M&index=4"><i>Link</i></a></li>
+    <li>Cancion 3: <a href="https://www.youtube.com/watch?v=SZ1OTOzX1TE&list=RD9sR1Plawr6M&index=8"><i>Link</i></a></li> 
+</ol>
+-->
+    </h1>
+
+    <h1 class="oferta"> ¡TE OFRECEMOS ESTOS PLANES MUSICALES!</h1>
+    <hr>
+    <section class="container flez text">
+
+        <div class="columna2">
+            <h2>PLAN UNO</h2>
+            <p class="precio"> 10$</p>
+            <p> Plan Basico para oyentes ordinarios</p>
+            <hr>
+            <p> Musica Tranquila</p>
+            <p> Nada de Reguetton</p>
+            <p>Gracias</p>
+            <hr>
+            <a href="#" class="reprecio">Comprar</a>
+
+        </div>
+
+
+        <div class="columna2">
+            <h2>PLAN DOS</h2>
+            <p class="precio"> 20$</p>
+            <p> Plan Medio para oyentes ordinarios</p>
+            <hr>
+            <p> Musica Tranquila</p>
+            <p> Nada de Reguetton</p>
+            <p>Gracias</p>
+            <hr>
+            <a href="#" class="reprecio">Comprar</a>
+
+        </div>
+
+        <div class="columna2">
+            <h2>PLAN TRES</h2>
+            <p class="precio"> 35$</p>
+            <p> Plan Mixto para oyentes ordinarios</p>
+            <hr>
+            <p> Musica Tranquila</p>
+            <p> Nada de Reguetton</p>
+            <p>Gracias</p>
+            <hr>
+            <a href="#" class="reprecio">Comprar</a>
+
+        </div>
+
+        <div class="columna2">
+            <h2>PLAN CUATRO</h2>
+            <p class="precio"> 100$</p>
+            <p> Plan Premium para oyentes ordinarios</p>
+            <hr>
+            <p> Musica Tranquila</p>
+            <p> Nada de Reguetton</p>
+            <p>Gracias</p>
+            <hr>
+            <a href="#" class="reprecio">Comprar</a>
+
+        </div>
+
+    </section>
+    <hr>
+    <section>
+
+        <p id="objetivo" class="posi reposi"> <b id="ob">Objetivo de la Pagina:</b>
+
+            El objetivo de la pagina principalmente para aumentar mis conocimientos, y sobre todo
+            entregar el trabajo a tiempo limite para que se pueda verificar correctamente.
+
+            Investigue a fondo sobre todo como crear sitios web, por que me llamo la atencion, pude comprender
+            perfectamente la mayoria de etiquetas y sus funcioamientos, agregue ciertas caracteristicas como el fondo
+            que no se explico y el funcionamiento del button, no lo agregue ya que ocupaba espacio.
+        </p>
+
+    </section>
+
+</body>
+
+</html>
