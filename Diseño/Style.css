@@ -1,9 +1,14 @@
 body {
     font-family: "Poetsen One", sans-serif;
 }
-p{
-    color: white;
+
+#ob {
+    font-size: 15px;
+    color: #F97300;
+    margin: 5px;
 }
+
+
 #MenesajeB {
     color: white;
     font-size: 60px;
@@ -55,50 +60,43 @@ h1 {
     border: 1px solid #F97300;
     margin: 10px;
     padding: 10px;
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
     box-shadow: 10px 10px 5px black;
-    display: inline-block;
+    display: block;
 
 }
 
 .Columna {
     background: #31363F;
     color: white;
-    border: 1px solid #F97300 ;
+    border: 1px solid #F97300;
     padding: 25px;
     width: 20%;
     margin: 15px;
     border-radius: 5px;
     text-align: center;
 }
-ul{
+
+ul {
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 
-.posi{
+.posi {
     background: #31363F;
     color: white;
-    border: 1px solid #F97300 ;
+    border: 1px solid #F97300;
     padding: 25px;
-    width: 20%;
-    white-space: 10px;
-    margin: 15px;
+    width: 50%;
+    margin: 20px auto;
     border-radius: 5px;
-    text-align: center;
+    text-align: justify;
 }
 
-.losi{
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-}
 
-.pa {
-    display: flex;
-}
+
 
 .nav-enlace {
     background: #4D869C;
@@ -127,6 +125,8 @@ nav {
     padding: 10px 0;
     border: 2px solid #4D869C;
     display: none;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .boton:hover {
@@ -149,7 +149,7 @@ nav {
 }
 
 /* Sirve para poder ajustar el tamaño de la pagina cuando se pasa de pc a celular */
-@media (max-width: 650px) {
+@media (max-width: 420px) {
     nav {
         flex-direction: column;
     }
@@ -164,5 +164,75 @@ nav {
 
     .desaparece {
         display: none;
+    }
+
+    #MenesajeB {
+        color: white;
+        font-size: 35px;
+        background-color: #153448;
+        text-align: center;
+        margin: 50px 55px 50px 55px;
+        padding: 40px;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    .oferta {
+        background: #153448;
+        color: white;
+        font-size: 35px;
+        margin: 50px 55px 50px 55px;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .Columna {
+        background: #31363F;
+        color: white;
+        border: 1px solid #F97300;
+        padding: 25px;
+        width: 80%;
+        margin: 15px 0;
+        border-radius: 5px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 1.5;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 5px 5px 5px #3C5B6F;
+    }
+
+    .columna2 {
+        background: #31363F;
+        color: white;
+        border: 1px solid #F97300;
+        margin: 15px;
+        padding: 10px;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px black;
+        display: inline-block;
+
+    }
+
+    .reposi {
+        background: #31363F;
+        color: white;
+        border: 1px solid #F97300;
+        padding: 25px;
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 5px;
+        text-align: justify;
     }
 }
