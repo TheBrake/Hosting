@@ -10,10 +10,11 @@
     <title>NOVASPECTROS</title>
     <style>
         body {
-            background-image: url('JP/fondo.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            margin: 0;
+            background-image: url('JP/foto.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
         }
     </style>
 </head>
@@ -22,12 +23,11 @@
 
     <!-- El h1 es el tamaño de la letra mas grande-->
     <!-- id es un identificador, para que solo esa linea se le pueda cambiar el color -->
-    <h1 id="MenesajeB">BIENVENIDOS</h1>
-
     <nav>
         <button class="boton" onclick="accion()">Menu</button>
         <a href="#objetivo" class="nav-enlace desaparece">Objetivo de la Pagina</a>
         <a href="documento.pdf" class="nav-enlace desaparece">Documento</a>
+        <a href="#planes" class="nav-enlace desaparece">Servicios</a>
     </nav>
     <script>
         function accion() {
@@ -75,11 +75,11 @@
 -->
     </h1>
 
-    <h1 class="oferta"> ¡TE OFRECEMOS ESTOS PLANES MUSICALES!</h1>
+    <h1 class="oferta" id="planes"> ¡TE OFRECEMOS ESTOS PLANES MUSICALES!</h1>
     <hr>
     <section class="container flez text">
 
-        <div class="columna2">
+        <div  class="columna2">
             <h2>PLAN UNO</h2>
             <p class="precio"> 10$</p>
             <p> Plan Basico para oyentes ordinarios</p>
