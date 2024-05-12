@@ -64,7 +64,6 @@ h1 {
     border-radius: 5px;
     box-shadow: 10px 10px 5px black;
     display: block;
-
 }
 
 .Columna {
@@ -91,7 +90,7 @@ ul {
     border: 1px solid #F97300;
     padding: 25px;
     width: 50%;
-    margin: 20px auto;
+    margin: 300px auto;
     border-radius: 5px;
     text-align: justify;
 }
@@ -127,7 +126,7 @@ nav {
     border: 2px solid #4D869C;
     display: none;
     margin: 10px;
-    border-radius: 20px;
+
 }
 
 .boton:hover {
@@ -151,6 +150,7 @@ nav {
 
 /* Sirve para poder ajustar el tamaño de la pagina cuando se pasa de pc a celular */
 @media (max-width: 412px) {
+    
     nav {
         flex-direction: column;
     }
@@ -247,4 +247,11 @@ nav {
         text-align: justify;
     }
     
+}
+@media (min-width: 768px) {
+    .columna2 {
+        width: 50%;
+        float: left;
+        margin: 15px 1%;
+    }
 }
